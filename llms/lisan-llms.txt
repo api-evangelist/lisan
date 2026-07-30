@@ -1,0 +1,44 @@
+# Lisan
+
+> Lisan is an AI-powered Arabic proofreading and writing-assistance platform. It detects and
+> corrects eight classes of error (spelling, grammar, morphology, semantics, style, formatting,
+> proper nouns, and citations), explains each correction so writers improve, and reports error
+> statistics for individuals and institutions. Lisan is delivered as a web app, a Windows desktop
+> app, Microsoft Word/PowerPoint/Outlook add-ins, Chrome and Edge browser extensions, a WordPress
+> plugin, and — for institutional customers — an API and SDK.
+
+Note: Lisan advertises an API and SDK for developers, but as of this writing publishes no public
+developer portal, API reference, base URL, or specification. API access is arranged through the
+institutional contact channel. No OpenAPI, SDK package, or public repository was found.
+
+## Product
+
+- [Proofreading](https://www.lisan.ai/proofreading): The eight error classes Lisan detects and corrects.
+- [Language learning](https://www.lisan.ai/language-learning): Skill-building from correction explanations.
+- [Extensions and platforms](https://www.lisan.ai/extensions): Word, PowerPoint, Outlook, Chrome, Edge, Windows app, WordPress, and the developer API/SDK listing.
+- [For institutions](https://www.lisan.ai/institutional): Enterprise proofreading, institutional style-guide enforcement, and analytics dashboards.
+- [Institutional features](https://www.lisan.ai/institutional-features): Detailed enterprise capability list.
+
+## Access
+
+- [Web application / login](https://app.lisan.com): The Lisan application.
+- [Pricing (individuals)](https://www.lisan.ai/pricing)
+- [Pricing (institutions)](https://www.lisan.ai/institutional-pricing)
+- [Contact](https://www.lisan.ai/contact)
+- [Institutional contact](https://www.lisan.ai/institutional-contact): The channel for API and SDK access.
+
+## Distribution
+
+- [Chrome Web Store](https://chromewebstore.google.com/detail/lisan/ilicjiikohbbbmgecoahkbpjcjjdnmpo)
+- [Microsoft AppSource add-in](https://appsource.microsoft.com/en-gb/product/office/WA200005887?tab=Overview)
+- [Microsoft AppSource add-in](https://appsource.microsoft.com/en-gb/product/office/WA200006156?tab=Overview)
+
+## Legal
+
+- [Terms and conditions](https://www.lisan.ai/terms)
+- [Chrome extension privacy policy](https://www.lisan.ai/lisan-chrome-extension-privacy-policy)
+
+## Optional
+
+- [API Evangelist profile](https://apis.io/provider/lisan)
+- [Domain security posture](https://raw.githubusercontent.com/api-evangelist/lisan/refs/heads/main/security/lisan-domain-security.yml)

@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: none
+source: live probe of /.well-known/ paths on Lisan hosts
+notes: >-
+  No .well-known discovery documents are published. The lisan.ai marketing host
+  returns 404 for every probed path. The lisan.com application host returns HTTP
+  200 for every path, but the response is the single-page-application shell
+  (Content-Type text/html, identical body for a known-nonexistent control path),
+  so those 200s are catch-all responses and NOT real discovery documents. No
+  files were saved and no WellKnown/SecurityTxt pointer was wired, because
+  nothing is genuinely published.
+hosts:
+- host: https://lisan.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://lisan.com
+  spa_catch_all: true
+  control_path: /this-path-should-not-exist-12345
+  control_status: 200
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    valid: false
+    reason: SPA shell HTML, not RFC 9116 text
+  - path: /.well-known/openid-configuration
+    status: 200
+    valid: false
+    reason: SPA shell HTML, not JSON
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    valid: false
+    reason: SPA shell HTML, not JSON
+  - path: /.well-known/api-catalog
+    status: 200
+    valid: false
+    reason: SPA shell HTML, not JSON
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    valid: false
+    reason: SPA shell HTML, not JSON
