@@ -11,6 +11,17 @@ description: Lisan is an AI-powered Arabic proofreading and writing-assistance p
   it advertises an API and SDK for developers. As of July 2026 that developer surface is not
   publicly documented — Lisan publishes no developer portal, API reference, base URL, or machine-readable
   specification, and API/SDK access is arranged through its institutional contact channel.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
