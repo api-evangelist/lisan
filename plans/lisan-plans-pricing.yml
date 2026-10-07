@@ -1,0 +1,37 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://lisan.com/pricing/
+sources:
+- https://lisan.com/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Self-hosted and on-premises options
+  managed_tier: Teams
+published: false
+note: No numeric price is published on the pricing page; Page publishes plan structure only; explicitly
+  states no dollar prices, quotes given directly in writing. Self-hosted/on-premises offered as paid enterprise
+  deployment.
+plan_count: 3
+plans:
+- name: Start Free
+  price_text: Start free
+  period: none
+  included_quota: Free tier on every flagship; Lisan workspace free to start; desktop apps free from Lisan
+    Hub
+- name: Teams
+  price_text: Per product, per team
+  period: none
+  included_quota: Shared workspaces, AI features, admin controls, priority support, bundle pricing
+- name: Enterprise & Government
+  price_text: Per deployment
+  period: none
+  included_quota: Self-hosted and on-premises options, custom models, security review, training
